@@ -6,7 +6,7 @@ torch.nn modules that can be used as the classification method.
 import itertools as it
 import torch
 import torch.nn as nn
-from features import window as window_module
+from src.features import window as window_module
 
 
 class Model(nn.Module):

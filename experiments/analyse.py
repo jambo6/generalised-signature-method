@@ -7,7 +7,7 @@ for other custom analysis, you will have to amend/build your own functions.
 from definitions import *
 import numpy as np
 from experiments.utils import create_run_frame
-from src.visualization.critial_difference import plot_cd_diagram
+from src.visualization.critical_difference import plot_cd_diagram
 
 transform_ids = {
     'depth_sig': ['depth', 'sig_tfm'],
@@ -48,7 +48,6 @@ def analyse(ex_dir, config_name, save_dir='analysis'):
     results = df.groupby(['ds_name', 'transform_id', 'clf'])['acc.test'].apply(max)
     results = results.reset_index([1, 2]).drop('clf', axis=1)
     pivoted = results.pivot_table(values='acc.test', index='ds_name', columns='transform_id', aggfunc=np.max)
-
     # Plot and save the diagram
     plt, average_ranks = plot_cd_diagram(pivoted, return_items=True)
 

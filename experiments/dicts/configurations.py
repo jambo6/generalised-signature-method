@@ -6,6 +6,7 @@ Model configurations.
 
 # Configuration files used in the paper
 configs = {
+
     'test': {
         'depth': [3],
         'clf': ['rf'],
@@ -26,7 +27,7 @@ configs = {
     'best_rf': {
         'depth': [1, 2, 3, 4, 5, 6],
         'sig_tfm': ['signature'],
-        'tfms': [['addtime', 'penoff']],
+        'tfms': [['addtime', 'basepoint']],
         'clf': ['rf'],
         'window': [
             ('Dyadic', {'depth': 2}),
@@ -34,7 +35,7 @@ configs = {
             ('Dyadic', {'depth': 4})
         ],
         'scaling': ['stdsc'],
-        'rescaling': ['post'],
+        'rescaling': [None],
         'grid_search': [True]
     },
 

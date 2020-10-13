@@ -40,13 +40,11 @@ We give the results from this pipeline on the extensive [UEA repository](http://
 ## Citation
 
 ```bibtex
-@misc{morrill2020generalised,
-    title={A Generalised Signature Method for Time Series},
+@article{morrill2020generalised,
+    title={{A Generalised Signature Method for Time Series}},
     author={James Morrill and Adeline Fermanian and Patrick Kidger and Terry Lyons},
     year={2020},
-    eprint={2006.00873},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG}
+    journal={arXiv:2006.00873},
 }
 ```
 

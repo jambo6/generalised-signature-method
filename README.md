@@ -17,7 +17,11 @@ This is summarised neatly below:
 
 where `phi_k` describes the augmentations, `W^{i, j}` the windowing operation, `\rho_{pre/post}` the scaling pre or post signature transform, and finally `S^N` the signature transform of choice. We refer to this procedure as *the generalised signature method*.
 
-Through extensive empirical experiments we develop a canonical signature pipeline that represents a best-practices domain-agnostic starting point for the signature method.
+Through extensive empirical experiments we develop a canonical signature pipeline that represents a best-practices domain-agnostic starting point for the signature method. The method is summarised pictorially below.
+
+<p align="center">
+    <img class="center" src="./paper/images/generalised.png" width="800"/>
+</p>
 
 ----
 ## The code

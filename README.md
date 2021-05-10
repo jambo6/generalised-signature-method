@@ -20,7 +20,7 @@ where `phi_k` describes the augmentations, `W^{i, j}` the windowing operation, `
 Through extensive empirical experiments we develop a canonical signature pipeline that represents a best-practices domain-agnostic starting point for the signature method. The method is summarised pictorially below.
 
 <p align="center">
-    <img class="center" src="./paper/images/generalised.png" width="800"/>
+    <img class="center" src="./paper/images/generalised.png" width="900"/>
 </p>
 
 ----
@@ -38,17 +38,17 @@ As taken from the paper, we advise the following:
 We give the results from this pipeline on the extensive [UEA repository](http://www.timeseriesclassification.com/) below:
 
 <p align="center">
-    <img class="center" src="./paper/images/best_sig_table.png" width="700" />
+    <img class="center" src="./paper/images/final_results.png" width="900" />
 </p>
 
 ## Citation
 
 ```bibtex
 @article{morrill2020generalised,
-    title={{A Generalised Signature Method for Time Series}},
-    author={James Morrill and Adeline Fermanian and Patrick Kidger and Terry Lyons},
-    year={2020},
-    journal={arXiv:2006.00873},
+  title={A generalised signature method for time series},
+  author={Morrill, James and Fermanian, Adeline and Kidger, Patrick and Lyons, Terry},
+  journal={arXiv preprint arXiv:2006.00873},
+  year={2020}
 }
 ```
 
